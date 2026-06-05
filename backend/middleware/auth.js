@@ -18,3 +18,13 @@ const protect = async (req, res, next) => {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'super_secret_scholar_key_12345');
+    req.user = await User.findById(decoded.id);
+    if (!req.user) {
+      return next(new ErrorResponse('No user found with this id', 404));
+    }
+    next();
+  } catch (err) {
+    return next(new ErrorResponse('Not authorized to access this route', 401));
+  }
+};
+
