@@ -28,3 +28,13 @@ const protect = async (req, res, next) => {
   }
 };
 
+const authorize = (...roles) => {
+  return (req, res, next) => {
+    if (!req.user || !roles.includes(req.user.role)) {
+      return next(
+        new ErrorResponse(
+          `User role ${req.user ? req.user.role : 'guest'} is not authorized to access this route`,
+          403
+        )
+      );
+    }
