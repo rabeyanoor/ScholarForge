@@ -38,3 +38,8 @@ const authorize = (...roles) => {
         )
       );
     }
+    next();
+  };
+};
+
+module.exports = { protect, authorize };
