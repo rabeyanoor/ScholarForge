@@ -18,3 +18,13 @@ const UserSchema = new mongoose.Schema({
     ]
   },
   role: {
+    type: String,
+    enum: ['student', 'researcher', 'professor', 'admin'],
+    default: 'student'
+  },
+  password: {
+    type: String,
+    required: [true, 'Please add a password'],
+    minlength: 6,
+    select: false
+  },
