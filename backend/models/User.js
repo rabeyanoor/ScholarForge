@@ -48,3 +48,13 @@ UserSchema.pre('save', async function (next) {
     next();
   }
   const salt = await bcrypt.genSalt(10);
+  this.password = await bcrypt.hash(this.password, salt);
+});
+
+// Sign JWT and return
+UserSchema.methods.getSignedJwtToken = function () {
+  return jwt.sign(
+    { id: this._id },
+    process.env.JWT_SECRET || 'super_secret_scholar_key_12345',
+    { expiresIn: process.env.JWT_EXPIRE || '7d' }
+  );
