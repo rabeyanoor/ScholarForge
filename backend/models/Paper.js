@@ -18,3 +18,13 @@ const PaperSchema = new mongoose.Schema({
   doi: {
     type: String,
     unique: true,
+    sparse: true
+  },
+  pdfUrl: {
+    type: String,
+    default: ''
+  },
+  citations: {
+    type: Number,
+    default: 0
+  },
