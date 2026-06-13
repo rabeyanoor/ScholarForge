@@ -8,3 +8,4 @@
 - **2026-06-08 20:25:28**: feat(backend): implement Mongoose database connection in config/db.js
 - **2026-06-10 20:17:14**: feat(backend): add timeout handling and bufferCommands flag to db.js
 - **2026-06-11 17:11:41**: feat(backend): define User schema with bcrypt password hashing hook
+- **2026-06-13 20:47:42**: feat(backend): implement getSignedJwtToken and matchPassword methods on User model
