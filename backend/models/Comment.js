@@ -8,3 +8,13 @@ const CommentSchema = new mongoose.Schema({
   },
   paper: {
     type: mongoose.Schema.ObjectId,
+    ref: 'Paper',
+    required: true
+  },
+  user: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'User',
+    required: true
+  },
+  createdAt: {
+    type: Date,
