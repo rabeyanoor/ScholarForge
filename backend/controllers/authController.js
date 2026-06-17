@@ -28,3 +28,13 @@ exports.register = async (req, res, next) => {
 // @route   POST /api/auth/login
 // @access  Public
 exports.login = async (req, res, next) => {
+  try {
+    const { email, password } = req.body;
+
+    // Validate email & password
+    if (!email || !password) {
+      return next(new ErrorResponse('Please provide an email and password', 400));
+    }
+
+    // Check for user
+    const user = await User.findOne({ email }).select('+password');
