@@ -11,3 +11,4 @@
 - **2026-06-13 20:47:42**: feat(backend): implement getSignedJwtToken and matchPassword methods on User model
 - **2026-06-14 20:42:36**: feat(backend): create Paper schema with title, abstract, authors, and doi fields
 - **2026-06-16 10:39:21**: feat(backend): add tags array and uploadedBy reference to Paper schema
+- **2026-06-17 14:46:30**: feat(backend): create Comment schema for academic peer review discussions
