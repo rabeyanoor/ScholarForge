@@ -48,3 +48,13 @@ exports.login = async (req, res, next) => {
 
     if (!isMatch) {
       return next(new ErrorResponse('Invalid credentials', 401));
+    }
+
+    sendTokenResponse(user, 200, res);
+  } catch (err) {
+    next(err);
+  }
+};
+
+// @desc    Get current logged in user
+// @route   GET /api/auth/me
