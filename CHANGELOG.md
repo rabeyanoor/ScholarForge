@@ -12,3 +12,4 @@
 - **2026-06-14 20:42:36**: feat(backend): create Paper schema with title, abstract, authors, and doi fields
 - **2026-06-16 10:39:21**: feat(backend): add tags array and uploadedBy reference to Paper schema
 - **2026-06-17 14:46:30**: feat(backend): create Comment schema for academic peer review discussions
+- **2026-06-19 14:16:35**: feat(backend): implement custom ErrorResponse class in middleware/error.js
