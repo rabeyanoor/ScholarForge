@@ -68,3 +68,13 @@ exports.getMe = async (req, res, next) => {
     });
   } catch (err) {
     next(err);
+  }
+};
+
+// Get token from model, create cookie and send response
+const sendTokenResponse = (user, statusCode, res) => {
+  // Create token
+  const token = user.getSignedJwtToken();
+
+  res.status(statusCode).json({
+    success: true,
