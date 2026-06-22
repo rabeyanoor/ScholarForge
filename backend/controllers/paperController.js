@@ -18,3 +18,13 @@ exports.getPapers = async (req, res, next) => {
 
     // Create operators ($gt, $gte, etc)
     queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, match => `$${match}`);
+
+    // Finding resource
+    query = Paper.find(JSON.parse(queryStr)).populate({
+      path: 'uploadedBy',
+      select: 'name role'
+    });
+
+    // Text search if 'search' query parameter is present
+    if (req.query.search) {
+      const searchPattern = new RegExp(req.query.search, 'i');
