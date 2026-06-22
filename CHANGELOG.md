@@ -14,3 +14,4 @@
 - **2026-06-17 14:46:30**: feat(backend): create Comment schema for academic peer review discussions
 - **2026-06-19 14:16:35**: feat(backend): implement custom ErrorResponse class in middleware/error.js
 - **2026-06-20 14:17:25**: feat(backend): add global errorHandler middleware for Mongoose validation errors
+- **2026-06-22 20:32:48**: feat(backend): create protect middleware for JWT token verification
