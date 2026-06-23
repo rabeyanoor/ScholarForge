@@ -28,3 +28,13 @@ exports.getPapers = async (req, res, next) => {
     // Text search if 'search' query parameter is present
     if (req.query.search) {
       const searchPattern = new RegExp(req.query.search, 'i');
+      query = query.find({
+        $or: [
+          { title: searchPattern },
+          { abstract: searchPattern },
+          { authors: searchPattern }
+        ]
+      });
+    }
+
+    // Select Fields
