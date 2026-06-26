@@ -58,3 +58,13 @@ exports.getPapers = async (req, res, next) => {
       success: true,
       count: papers.length,
       data: papers
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// @desc    Get single paper
+// @route   GET /api/papers/:id
+// @access  Public
+exports.getPaper = async (req, res, next) => {
