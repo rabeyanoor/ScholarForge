@@ -48,3 +48,13 @@ exports.getPapers = async (req, res, next) => {
       const sortBy = req.query.sort.split(',').join(' ');
       query = query.sort(sortBy);
     } else {
+      query = query.sort('-createdAt');
+    }
+
+    // Execute query
+    const papers = await query;
+
+    res.status(200).json({
+      success: true,
+      count: papers.length,
+      data: papers
