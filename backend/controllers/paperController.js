@@ -68,3 +68,13 @@ exports.getPapers = async (req, res, next) => {
 // @route   GET /api/papers/:id
 // @access  Public
 exports.getPaper = async (req, res, next) => {
+  try {
+    const paper = await Paper.findById(req.params.id).populate({
+      path: 'uploadedBy',
+      select: 'name role'
+    });
+
+    if (!paper) {
+      return next(new ErrorResponse(`Paper not found with id of ${req.params.id}`, 404));
+    }
+
