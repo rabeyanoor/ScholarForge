@@ -98,3 +98,13 @@ exports.createPaper = async (req, res, next) => {
     const paper = await Paper.create(req.body);
 
     res.status(201).json({
+      success: true,
+      data: paper
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// @desc    Delete paper
+// @route   DELETE /api/papers/:id
