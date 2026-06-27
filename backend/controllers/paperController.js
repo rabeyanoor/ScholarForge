@@ -78,3 +78,13 @@ exports.getPaper = async (req, res, next) => {
       return next(new ErrorResponse(`Paper not found with id of ${req.params.id}`, 404));
     }
 
+    res.status(200).json({
+      success: true,
+      data: paper
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// @desc    Create new paper
