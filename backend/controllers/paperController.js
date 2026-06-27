@@ -88,3 +88,13 @@ exports.getPaper = async (req, res, next) => {
 };
 
 // @desc    Create new paper
+// @route   POST /api/papers
+// @access  Private
+exports.createPaper = async (req, res, next) => {
+  try {
+    // Add user to req.body
+    req.body.uploadedBy = req.user.id;
+
+    const paper = await Paper.create(req.body);
+
+    res.status(201).json({
