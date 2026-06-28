@@ -108,3 +108,13 @@ exports.createPaper = async (req, res, next) => {
 
 // @desc    Delete paper
 // @route   DELETE /api/papers/:id
+// @access  Private
+exports.deletePaper = async (req, res, next) => {
+  try {
+    const paper = await Paper.findById(req.params.id);
+
+    if (!paper) {
+      return next(new ErrorResponse(`Paper not found with id of ${req.params.id}`, 404));
+    }
+
+    // Make sure user is owner or admin
