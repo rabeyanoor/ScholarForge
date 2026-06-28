@@ -18,3 +18,4 @@
 - **2026-06-24 14:41:35**: feat(backend): add authorize middleware for role-based access control (RBAC)
 - **2026-06-25 20:21:36**: feat(backend): implement register controller with memory fallback support
 - **2026-06-27 20:39:43**: feat(backend): implement login controller with bcrypt validation
+- **2026-06-28 10:44:29**: feat(backend): implement getMe controller to return authenticated user profile
