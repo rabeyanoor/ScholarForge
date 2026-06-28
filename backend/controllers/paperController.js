@@ -118,3 +118,13 @@ exports.deletePaper = async (req, res, next) => {
     }
 
     // Make sure user is owner or admin
+    if (paper.uploadedBy.toString() !== req.user.id && req.user.role !== 'admin') {
+      return next(new ErrorResponse(`User ${req.user.id} is not authorized to delete this paper`, 401));
+    }
+
+    await Paper.findByIdAndDelete(req.params.id);
+
+    res.status(200).json({
+      success: true,
+      data: {}
+    });
