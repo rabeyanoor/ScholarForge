@@ -128,3 +128,7 @@ exports.deletePaper = async (req, res, next) => {
       success: true,
       data: {}
     });
+  } catch (err) {
+    next(err);
+  }
+};
