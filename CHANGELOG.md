@@ -19,3 +19,4 @@
 - **2026-06-25 20:21:36**: feat(backend): implement register controller with memory fallback support
 - **2026-06-27 20:39:43**: feat(backend): implement login controller with bcrypt validation
 - **2026-06-28 10:44:29**: feat(backend): implement getMe controller to return authenticated user profile
+- **2026-06-30 17:26:41**: feat(backend): create authRoutes with /register, /login, and /me endpoints
