@@ -23,3 +23,4 @@
 - **2026-07-01 17:43:37**: feat(backend): implement getPapers controller with query search and pagination
 - **2026-07-03 10:38:23**: feat(backend): implement getPaper controller for single paper lookup
 - **2026-07-04 20:45:38**: feat(backend): implement createPaper controller with role authorization check
+- **2026-07-06 10:33:25**: feat(backend): implement deletePaper controller with ownership check
