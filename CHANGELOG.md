@@ -25,3 +25,4 @@
 - **2026-07-04 20:45:38**: feat(backend): implement createPaper controller with role authorization check
 - **2026-07-06 10:33:25**: feat(backend): implement deletePaper controller with ownership check
 - **2026-07-07 10:33:23**: feat(backend): create paperRoutes with CRUD endpoints
+- **2026-07-09 10:28:50**: feat(backend): assemble Express server in server.js with CORS and Helmet middleware
