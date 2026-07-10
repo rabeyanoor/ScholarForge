@@ -26,3 +26,4 @@
 - **2026-07-06 10:33:25**: feat(backend): implement deletePaper controller with ownership check
 - **2026-07-07 10:33:23**: feat(backend): create paperRoutes with CRUD endpoints
 - **2026-07-09 10:28:50**: feat(backend): assemble Express server in server.js with CORS and Helmet middleware
+- **2026-07-10 10:40:27**: feat(backend): add /health check endpoint for frontend status badge monitoring
