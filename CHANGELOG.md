@@ -37,3 +37,4 @@
 - **2026-07-23 20:15:43**: feat(frontend): implement responsive paper card layout in style.css
 - **2026-07-24 20:40:14**: feat(frontend): add modal dialog CSS overlay and glassmorphism styling
 - **2026-07-26 10:13:20**: feat(frontend): style citation box with code block typography and copy button
+- **2026-07-27 20:25:20**: feat(frontend): style paper publish modal wizard form inputs
