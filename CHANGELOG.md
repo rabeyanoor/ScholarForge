@@ -38,3 +38,4 @@
 - **2026-07-24 20:40:14**: feat(frontend): add modal dialog CSS overlay and glassmorphism styling
 - **2026-07-26 10:13:20**: feat(frontend): style citation box with code block typography and copy button
 - **2026-07-27 20:25:20**: feat(frontend): style paper publish modal wizard form inputs
+- **2026-07-29 17:20:13**: feat(frontend): style authentication login/register tab container
