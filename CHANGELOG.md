@@ -44,3 +44,4 @@
 - **2026-08-02 17:16:19**: feat(frontend): initialize local memory dataset for fallback initial papers
 - **2026-08-04 17:42:27**: feat(frontend): implement initApp DOMContentLoaded listener
 - **2026-08-06 14:13:26**: feat(frontend): implement main renderApp function for dynamic layout rendering
+- **2026-08-07 10:31:43**: feat(frontend): add fetchBackendHealth service call to monitor backend status
