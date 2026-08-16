@@ -50,3 +50,4 @@
 - **2026-08-12 17:40:33**: feat(frontend): implement renderPapersGrid for dynamic paper card rendering
 - **2026-08-13 10:15:36**: feat(frontend): add attachEventListeners for search box, filters, and modals
 - **2026-08-15 20:10:50**: feat(frontend): implement toggleBookmark method with localStorage synchronization
+- **2026-08-16 10:32:46**: feat(frontend): implement openPaperDetails modal with peer review comments
