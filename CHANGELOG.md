@@ -52,3 +52,4 @@
 - **2026-08-15 20:10:50**: feat(frontend): implement toggleBookmark method with localStorage synchronization
 - **2026-08-16 10:32:46**: feat(frontend): implement openPaperDetails modal with peer review comments
 - **2026-08-18 10:30:39**: feat(frontend): implement openCiteModal with BibTeX citation formatter
+- **2026-08-19 14:10:16**: feat(frontend): implement copyCitation helper function with clipboard write
