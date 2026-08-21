@@ -53,3 +53,4 @@
 - **2026-08-16 10:32:46**: feat(frontend): implement openPaperDetails modal with peer review comments
 - **2026-08-18 10:30:39**: feat(frontend): implement openCiteModal with BibTeX citation formatter
 - **2026-08-19 14:10:16**: feat(frontend): implement copyCitation helper function with clipboard write
+- **2026-08-21 17:46:38**: feat(frontend): implement openPublishModal form handler for paper creation
