@@ -54,3 +54,4 @@
 - **2026-08-18 10:30:39**: feat(frontend): implement openCiteModal with BibTeX citation formatter
 - **2026-08-19 14:10:16**: feat(frontend): implement copyCitation helper function with clipboard write
 - **2026-08-21 17:46:38**: feat(frontend): implement openPublishModal form handler for paper creation
+- **2026-08-22 20:33:30**: feat(frontend): implement openAuthModal tab switching and login/register handler
