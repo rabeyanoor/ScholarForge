@@ -55,3 +55,4 @@
 - **2026-08-19 14:10:16**: feat(frontend): implement copyCitation helper function with clipboard write
 - **2026-08-21 17:46:38**: feat(frontend): implement openPublishModal form handler for paper creation
 - **2026-08-22 20:33:30**: feat(frontend): implement openAuthModal tab switching and login/register handler
+- **2026-08-24 14:38:32**: feat(frontend): implement handleLogout for session clearance
