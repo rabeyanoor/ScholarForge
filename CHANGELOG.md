@@ -58,3 +58,4 @@
 - **2026-08-24 14:38:32**: feat(frontend): implement handleLogout for session clearance
 - **2026-08-25 20:18:35**: feat(frontend): implement deletePaper helper function with local state removal
 - **2026-08-27 10:48:42**: feat(frontend): implement addComment helper function for peer review thread
+- **2026-08-29 14:25:29**: docs: add Mermaid system architecture diagram to README.md
