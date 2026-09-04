@@ -62,3 +62,4 @@
 - **2026-08-30 10:25:25**: docs: add sequence diagram for paper submission request lifecycle
 - **2026-09-01 20:11:24**: docs: add Entity-Relationship Diagram (ERD) for database models
 - **2026-09-02 17:11:39**: docs: add publication state machine diagram to README.md
+- **2026-09-04 10:15:50**: docs: document full REST API reference tables in README.md
