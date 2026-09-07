@@ -64,3 +64,4 @@
 - **2026-09-02 17:11:39**: docs: add publication state machine diagram to README.md
 - **2026-09-04 10:15:50**: docs: document full REST API reference tables in README.md
 - **2026-09-05 20:37:37**: docs: update quick start guide and environment configuration steps
+- **2026-09-07 14:48:16**: docs: add feature summary table and tech stack specification
