@@ -66,3 +66,4 @@
 - **2026-09-05 20:37:37**: docs: update quick start guide and environment configuration steps
 - **2026-09-07 14:48:16**: docs: add feature summary table and tech stack specification
 - **2026-09-08 20:36:24**: refactor(backend): optimize Mongoose connection timeout and error logging
+- **2026-09-10 17:36:47**: refactor(frontend): streamline paper filter performance and search regex
