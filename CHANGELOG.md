@@ -70,3 +70,4 @@
 - **2026-09-11 17:13:17**: style: polish paper card hover elevation and border contrast
 - **2026-09-13 17:25:23**: style: refine hero section typography font weights and letter spacing
 - **2026-09-14 17:25:33**: fix(frontend): handle edge case when abstract or authors list is empty
+- **2026-09-16 14:50:44**: fix(backend): correct JWT bearer token extraction pattern in auth middleware
