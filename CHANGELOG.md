@@ -77,3 +77,4 @@
 - **2026-09-22 14:49:50**: ci: finalize repository commit structure and push state
 - **2026-09-24 10:24:39**: chore: initialize repository structure and base project configuration
 - **2026-09-25 14:30:28**: docs: add initial project README title and MIT license information
+- **2026-09-27 17:40:43**: chore: add root .gitignore rules for logs and node_modules
