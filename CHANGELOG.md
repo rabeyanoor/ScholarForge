@@ -80,3 +80,4 @@
 - **2026-09-27 17:40:43**: chore: add root .gitignore rules for logs and node_modules
 - **2026-09-28 20:43:46**: chore: configure backend package.json dependencies and npm scripts
 - **2026-09-30 14:35:14**: chore: configure frontend package.json dependencies and Vite build scripts
+- **2026-10-01 14:21:38**: feat(backend): implement Mongoose database connection in config/db.js
