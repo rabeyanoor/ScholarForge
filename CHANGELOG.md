@@ -82,3 +82,4 @@
 - **2026-09-30 14:35:14**: chore: configure frontend package.json dependencies and Vite build scripts
 - **2026-10-01 14:21:38**: feat(backend): implement Mongoose database connection in config/db.js
 - **2026-10-03 10:29:22**: feat(backend): add timeout handling and bufferCommands flag to db.js
+- **2026-10-04 17:38:12**: feat(backend): define User schema with bcrypt password hashing hook
