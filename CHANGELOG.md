@@ -85,3 +85,4 @@
 - **2026-10-04 17:38:12**: feat(backend): define User schema with bcrypt password hashing hook
 - **2026-10-06 17:47:44**: feat(backend): implement getSignedJwtToken and matchPassword methods on User model
 - **2026-10-07 14:38:15**: feat(backend): create Paper schema with title, abstract, authors, and doi fields
+- **2026-10-09 17:21:37**: feat(backend): add tags array and uploadedBy reference to Paper schema
