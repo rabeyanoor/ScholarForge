@@ -88,3 +88,4 @@
 - **2026-10-09 17:21:37**: feat(backend): add tags array and uploadedBy reference to Paper schema
 - **2026-10-11 17:36:42**: feat(backend): create Comment schema for academic peer review discussions
 - **2026-10-12 10:14:49**: feat(backend): implement custom ErrorResponse class in middleware/error.js
+- **2026-10-14 17:43:17**: feat(backend): add global errorHandler middleware for Mongoose validation errors
