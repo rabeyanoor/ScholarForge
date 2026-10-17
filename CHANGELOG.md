@@ -90,3 +90,4 @@
 - **2026-10-12 10:14:49**: feat(backend): implement custom ErrorResponse class in middleware/error.js
 - **2026-10-14 17:43:17**: feat(backend): add global errorHandler middleware for Mongoose validation errors
 - **2026-10-15 14:39:46**: feat(backend): create protect middleware for JWT token verification
+- **2026-10-17 17:20:18**: feat(backend): add authorize middleware for role-based access control (RBAC)
