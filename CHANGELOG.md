@@ -91,3 +91,4 @@
 - **2026-10-14 17:43:17**: feat(backend): add global errorHandler middleware for Mongoose validation errors
 - **2026-10-15 14:39:46**: feat(backend): create protect middleware for JWT token verification
 - **2026-10-17 17:20:18**: feat(backend): add authorize middleware for role-based access control (RBAC)
+- **2026-10-18 20:22:43**: feat(backend): implement register controller with memory fallback support
