@@ -92,3 +92,4 @@
 - **2026-10-15 14:39:46**: feat(backend): create protect middleware for JWT token verification
 - **2026-10-17 17:20:18**: feat(backend): add authorize middleware for role-based access control (RBAC)
 - **2026-10-18 20:22:43**: feat(backend): implement register controller with memory fallback support
+- **2026-10-20 10:21:39**: feat(backend): implement login controller with bcrypt validation
