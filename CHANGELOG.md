@@ -96,3 +96,4 @@
 - **2026-10-21 10:42:24**: feat(backend): implement getMe controller to return authenticated user profile
 - **2026-10-23 14:49:14**: feat(backend): create authRoutes with /register, /login, and /me endpoints
 - **2026-10-24 17:45:20**: feat(backend): implement getPapers controller with query search and pagination
+- **2026-10-26 17:48:38**: feat(backend): implement getPaper controller for single paper lookup
