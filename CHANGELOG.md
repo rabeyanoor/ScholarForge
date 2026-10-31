@@ -99,3 +99,4 @@
 - **2026-10-26 17:48:38**: feat(backend): implement getPaper controller for single paper lookup
 - **2026-10-27 14:32:16**: feat(backend): implement createPaper controller with role authorization check
 - **2026-10-29 10:28:49**: feat(backend): implement deletePaper controller with ownership check
+- **2026-10-31 20:40:31**: feat(backend): create paperRoutes with CRUD endpoints
